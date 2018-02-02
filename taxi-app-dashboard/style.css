@@ -7,16 +7,14 @@ body {
   display: flex; }
 
 .side-bar {
-  width: 15%;
-  border: 1px solid black;
+  width: 240px;
+  border: 4px dashed #43b416;
   display: none; }
 
 .main {
   height: 100vh;
-  border: 1px solid black; }
+  border: 4px dashed #43b416; }
 
 .top-bar {
-  height: 10%;
-  border: 1px solid black; }
-
-/*# sourceMappingURL=style.css.map */
+  height: 100px;
+  border: 4px dashed #43b416; }
