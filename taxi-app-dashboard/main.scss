@@ -1,0 +1,28 @@
+$backgroundColor: rgb(213, 213, 223);
+$border: 1px solid black;
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $backgroundColor;
+}
+
+.container {
+    display: flex;
+}
+
+.side-bar {
+    width: 15%;
+    border: $border;
+    display: none;
+}
+
+.main {
+    height: 100vh;
+    border: $border;
+}
+
+.top-bar {
+    height: 10%;
+    border: $border;
+}

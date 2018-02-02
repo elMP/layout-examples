@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #d5d5df; }
+
+.container {
+  display: flex; }
+
+.side-bar {
+  width: 15%;
+  border: 1px solid black;
+  display: none; }
+
+.main {
+  height: 100vh;
+  border: 1px solid black; }
+
+.top-bar {
+  height: 10%;
+  border: 1px solid black; }
+
+/*# sourceMappingURL=style.css.map */
