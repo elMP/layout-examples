@@ -1,6 +1,8 @@
-body {
+* {
   margin: 0;
-  padding: 0;
+  padding: 0; }
+
+body {
   background: #d5d5df; }
 
 .container {
@@ -8,13 +10,21 @@ body {
 
 .side-bar {
   width: 240px;
-  border: 4px dashed #43b416;
+  border: 1px dashed #43b416;
   display: none; }
+  .side-bar header {
+    height: 100px;
+    border: 1px dashed #43b416; }
+  .side-bar ul {
+    list-style: none; }
+  .side-bar .menu-item {
+    height: 70px;
+    border: 1px dashed #43b416; }
 
 .main {
   height: 100vh;
-  border: 4px dashed #43b416; }
+  border: 1px dashed #43b416; }
 
 .top-bar {
   height: 100px;
-  border: 4px dashed #43b416; }
+  border: 1px dashed #43b416; }

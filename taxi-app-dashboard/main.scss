@@ -1,9 +1,11 @@
 $backgroundColor: rgb(213, 213, 223);
-$border: 4px dashed rgb(67, 180, 22);
+$border: 1px dashed rgb(67, 180, 22);
 
-body {
+* {
     margin: 0;
     padding: 0;
+}
+body {
     background: $backgroundColor;
 }
 
@@ -15,6 +17,20 @@ body {
     width: 240px;
     border: $border;
     display: none;
+
+    header {
+        height: 100px;
+        border: $border;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .menu-item {
+        height: 70px;
+        border: $border;
+    }
 }
 
 .main {
