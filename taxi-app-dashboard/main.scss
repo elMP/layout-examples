@@ -27,11 +27,13 @@ body {
         list-style: none;
     }
 
+    .tab {
+        height: 70px;
+        border: $border;
+    }
     .menu-item {
         display: block;
-        height: 70px;
         text-decoration: none;
-        border: $border;
     }
 }
 

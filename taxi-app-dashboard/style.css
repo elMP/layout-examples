@@ -17,11 +17,12 @@ body {
     border: 1px dashed #43b416; }
   .side-bar ul {
     list-style: none; }
+  .side-bar .tab {
+    height: 70px;
+    border: 1px dashed #43b416; }
   .side-bar .menu-item {
     display: block;
-    height: 70px;
-    text-decoration: none;
-    border: 1px dashed #43b416; }
+    text-decoration: none; }
 
 .main {
   height: 100vh;
