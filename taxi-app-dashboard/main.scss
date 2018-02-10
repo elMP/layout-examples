@@ -1,12 +1,17 @@
-$backgroundColor: rgb(213, 213, 223);
+$side-bar-background-color: #222230;
+$side-menu-background-color: #272736;
+$side-bar-title-left: #f6c358;
+$side-bar-title-right: #ffffff;
 $border: 1px dashed rgb(67, 180, 22);
 
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
-    background: $backgroundColor;
+    font-family: 'Sans';
+    font-size: 18px;
 }
 
 .container {
@@ -15,12 +20,18 @@ body {
 
 .side-bar {
     width: 240px;
-    border: $border;
     display: none;
+    background-color: $side-bar-background-color;
 
     header {
         height: 100px;
-        border: $border;
+        line-height: 100px;
+        text-align: center;
+        color: $side-bar-title-right;
+
+        .yellow {
+            color: $side-bar-title-left;
+        }
     }
 
     ul {
@@ -29,11 +40,20 @@ body {
 
     .tab {
         height: 70px;
-        border: $border;
     }
     .menu-item {
         display: block;
         text-decoration: none;
+        text-transform: uppercase;
+        color: #7b7b95;
+        background-color: $side-menu-background-color;
+        padding-left: 55px;
+        line-height: 70px;
+    }
+
+    .menu-item:hover {
+        color: #ffffff;
+        background-color: $side-bar-background-color;
     }
 }
 
