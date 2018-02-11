@@ -3,6 +3,11 @@ $side-menu-background-color: #272736;
 $side-bar-title-left: #f6c358;
 $side-bar-title-right: #ffffff;
 $border: 1px dashed rgb(67, 180, 22);
+$font: 'Montserrat', sans-serif;
+$top-bar-background-color: #e9ecf1;
+$top-bar-title-color: #242430;
+$top-bar-sub-title-color: #a7a7b0;
+$top-bar-user-color: #656578;
 
 * {
     margin: 0;
@@ -10,8 +15,9 @@ $border: 1px dashed rgb(67, 180, 22);
 }
 
 body {
-    font-family: 'Sans';
-    font-size: 18px;
+    font-family: $font;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .container {
@@ -24,6 +30,7 @@ body {
     background-color: $side-bar-background-color;
 
     header {
+        font-size: 18px;
         height: 100px;
         line-height: 100px;
         text-align: center;
@@ -62,8 +69,18 @@ body {
     border: $border;
 
     .top-bar {
+        display: flex;
         height: 100px;
-        border: $border;
+        background-color: $top-bar-background-color;   
+        
+        h1 {
+            font-size: 22px;
+            color: $top-bar-title-color;
+        }
+
+        p {
+            color: $top-bar-sub-title-color;
+        }
     }
 
     .menu {

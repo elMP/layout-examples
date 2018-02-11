@@ -3,8 +3,9 @@
   padding: 0; }
 
 body {
-  font-family: 'Sans';
-  font-size: 18px; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold; }
 
 .container {
   display: flex; }
@@ -14,6 +15,7 @@ body {
   display: none;
   background-color: #222230; }
   .side-bar header {
+    font-size: 18px;
     height: 100px;
     line-height: 100px;
     text-align: center;
@@ -40,8 +42,14 @@ body {
   height: 100vh;
   border: 1px dashed #43b416; }
   .main .top-bar {
+    display: flex;
     height: 100px;
-    border: 1px dashed #43b416; }
+    background-color: #e9ecf1; }
+    .main .top-bar h1 {
+      font-size: 22px;
+      color: #242430; }
+    .main .top-bar p {
+      color: #a7a7b0; }
   .main .menu ul {
     list-style: none; }
   .main .menu li {
